@@ -1,5 +1,6 @@
 <template>
     <ion-page>
+        <!-- Header -->
         <ion-header :translucent="true">
             <ion-toolbar>
                 <ion-title>Profile</ion-title>
@@ -12,6 +13,7 @@
             </ion-toolbar>
         </ion-header>
 
+        <!-- Content -->
         <ion-content :fullscreen="true">
             <!-- Avatar -->
             <div id="avatar-container">
@@ -25,7 +27,6 @@
                 <ion-item>
                     <ion-input label="Nama" :value="user?.displayName" :readonly="true"></ion-input>
                 </ion-item>
-
                 <ion-item>
                     <ion-input label="Email" :value="user?.email" :readonly="true"></ion-input>
                 </ion-item>
@@ -34,7 +35,6 @@
             <!-- Tabs Menu -->
             <TabsMenu />
         </ion-content>
-
     </ion-page>
 </template>
 
