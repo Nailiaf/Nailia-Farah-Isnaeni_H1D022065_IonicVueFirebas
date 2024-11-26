@@ -62,6 +62,15 @@ Penjelasan Alur Kerja Aplikasi Ionic dengan Firebase Authentication menggunakan 
 
 CRUD
 
+![Halaman Add](addtodo.png)
+![Halaman Setelah Add](aftaddtodo.png)
+![Notifikasi ](successtodo.png)
+![Halaman Slide Edit](crudedt.png)
+![Halaman Edit](edittodo.png)
+![Halaman Setelah Edit](aftedittodo.png)
+![Halaman Hapus](crudhps.png)
+![Notifikasi](deletetodo.png)
+
 Penjelasan Kode
 
 1. Struktur Firebase dan Firestore
